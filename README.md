@@ -1,1 +1,1 @@
-# blog6
+#company django+python

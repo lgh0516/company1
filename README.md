@@ -1,1 +1,1 @@
-#company django+python
+#company

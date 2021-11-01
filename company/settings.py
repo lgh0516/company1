@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4(7gzd0x@t2sy^b0106bptdb6t4elp!73kl8q2)e94725-iy8m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False #True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['192.168.134.129']
 
 # Application definition
 
@@ -123,6 +123,7 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT=os.path.join(BASE_DIR, 'static_dist')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 # 配置用户上传的文件

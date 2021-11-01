@@ -28,6 +28,8 @@ urlpatterns = [
     path('contactus/', ContactView.as_view(), name='contactus'),   # 接收用户留言
 ]
 
-if settings.DEBUG:
+#if settings.DEBUG:
     #  配置静态文件访问处理
-    urlpatterns.append(url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}))
+#    urlpatterns.append(url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}))
+
+urlpatterns.append(url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}))

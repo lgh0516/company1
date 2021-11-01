@@ -1,0 +1,648 @@
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 00:12:37 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d42e390ac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d42e390ac0 pid: 26940 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26940)
+spawned uWSGI worker 1 (pid: 26942, cores: 1)
+spawned uWSGI worker 2 (pid: 26943, cores: 1)
+spawned uWSGI worker 3 (pid: 26944, cores: 1)
+spawned uWSGI worker 4 (pid: 26945, cores: 1)
+spawned uWSGI worker 5 (pid: 26946, cores: 1)
+spawned uWSGI worker 6 (pid: 26947, cores: 1)
+spawned uWSGI worker 7 (pid: 26948, cores: 1)
+spawned uWSGI worker 8 (pid: 26949, cores: 1)
+spawned uWSGI worker 9 (pid: 26950, cores: 1)
+spawned uWSGI worker 10 (pid: 26951, cores: 1)
+[pid: 26951|app: 0|req: 1/1] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 12:13:25 2021] GET / => generated 30739 bytes in 91 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 1/2] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 78 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 2/3] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:13:26 2021] GET /media/imgs/56.jpg => generated 91 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 1/4] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/46.png => generated 91 bytes in 241 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 1/5] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 240 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 3/6] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:13:26 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 1/7] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 238 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 1/8] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 241 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 1/9] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:13:25 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 247 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 1/10] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:13:26 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 155 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 4/11] 192.168.134.1 () {44 vars in 867 bytes} [Fri Oct 29 12:13:42 2021] GET / => generated 30739 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 2/12] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 2/13] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 2/14] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 2/15] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 2/16] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 19 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 3/17] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 1/18] 192.168.134.1 () {44 vars in 818 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/46.png => generated 91 bytes in 74 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 1/19] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 12:13:42 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 75 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 2/20] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:13:43 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 2/21] 192.168.134.1 () {42 vars in 843 bytes} [Fri Oct 29 12:27:45 2021] GET / => generated 30739 bytes in 48 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 4/22] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:27:45 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26946|app: 0|req: 5/23] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:27:45 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 3/24] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:27:45 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 5/25] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:27:46 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 2/26] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:27:45 2021] GET /media/imgs/46.png => generated 91 bytes in 32 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26944|app: 0|req: 3/27] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:27:45 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 3/28] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:27:46 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 3/29] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:27:46 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 27 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 4/30] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:27:46 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 5/31] 192.168.134.1 () {42 vars in 843 bytes} [Fri Oct 29 12:58:59 2021] GET / => generated 30739 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 4/32] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/46.png => generated 91 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 5/33] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 3/34] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 29 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 4/35] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 6/36] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 6/37] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 2/38] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 3/39] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 28 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 3/40] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 12:58:59 2021] GET /media/imgs/56.jpg => generated 91 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 4/41] 192.168.134.1 () {44 vars in 867 bytes} [Fri Oct 29 20:10:44 2021] GET / => generated 30739 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 5/42] 192.168.134.1 () {44 vars in 818 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/46.png => generated 91 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 6/43] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 7/44] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 7/45] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 4/46] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26951|app: 0|req: 8/47] 192.168.134.1 () {44 vars in 824 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 6/49] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 30 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26942|app: 0|req: 4/49] 192.168.134.1 () {44 vars in 834 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 7/50] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:10:44 2021] GET /media/imgs/56.jpg => generated 91 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 5/51] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:25:44 2021] GET / => generated 30739 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 6/52] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/46.png => generated 91 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 7/53] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 8/54] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 5/55] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 6/56] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 8/57] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 9/58] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 7/59] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 7/60] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:25:44 2021] GET /media/imgs/56.jpg => generated 91 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 5/61] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:26:53 2021] GET / => generated 30739 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 6/62] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/46.png => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 7/63] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 8/64] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 8/65] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 8/67] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 4/68] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 3/69] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 6/69] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 4/70] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:26:53 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 5/71] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:27:00 2021] GET / => generated 30739 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 9/72] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/46.png => generated 91 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 10/73] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 11/74] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 5/75] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 8/76] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 6/77] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 7/78] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 9/79] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 10/80] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:27:00 2021] GET /media/imgs/56.jpg => generated 91 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 9/81] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:37:47 2021] GET / => generated 30739 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 10/82] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 10/83] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/46.png => generated 91 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 11/84] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 6/86] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 11/86] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 9/87] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 7/88] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 12/89] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 11/90] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:37:47 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 9/91] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:37:51 2021] GET / => generated 30739 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 279 bytes (2 switches on core 0)
+[pid: 26950|app: 0|req: 7/92] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 8/93] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 8/94] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 9/95] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 10/96] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 12/97] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 12/98] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 9/99] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/46.png => generated 91 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 13/100] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:37:51 2021] GET /media/imgs/56.jpg => generated 91 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 10/101] 192.168.134.1 () {44 vars in 874 bytes} [Fri Oct 29 20:49:14 2021] GET / => generated 30739 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 11/102] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/46.png => generated 91 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 12/103] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 13/104] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 10/105] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 9/106] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 11/109] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 10/109] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 8/109] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 12/110] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:14 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 14/111] 192.168.134.1 () {44 vars in 882 bytes} [Fri Oct 29 20:49:19 2021] GET / => generated 30739 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 10/112] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/46.png => generated 91 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 11/113] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 12/115] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 13/116] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 13/117] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 9/118] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 11/118] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 13/119] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 10 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 13/120] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:19 2021] GET /media/imgs/56.jpg => generated 91 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 10/121] 192.168.134.1 () {42 vars in 843 bytes} [Fri Oct 29 20:49:55 2021] GET / => generated 30739 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 14/122] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 11 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 12/123] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26947|app: 0|req: 11/124] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/46.png => generated 91 bytes in 23 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 11/125] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 14/126] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 16 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 14/127] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/tes-2.jpg => generated 94 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 15/128] 192.168.134.1 () {42 vars in 816 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26944|app: 0|req: 14/129] 192.168.134.1 () {42 vars in 826 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 24 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 12/130] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 20:49:56 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 13/131] 192.168.134.1 () {50 vars in 960 bytes} [Fri Oct 29 21:55:31 2021] POST /contactus/ => generated 21 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 15/132] 192.168.134.1 () {42 vars in 853 bytes} [Fri Oct 29 21:56:58 2021] GET /admin => generated 0 bytes in 5 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 14/133] 192.168.134.1 () {42 vars in 855 bytes} [Fri Oct 29 21:56:58 2021] GET /admin/ => generated 0 bytes in 52 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 15/134] 192.168.134.1 () {42 vars in 892 bytes} [Fri Oct 29 21:56:58 2021] GET /admin/login/?next=/admin/ => generated 4393 bytes in 51 msecs (HTTP/1.1 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 16/135] 192.168.134.1 () {42 vars in 762 bytes} [Fri Oct 29 21:56:58 2021] GET /jet/jsi18n/ => generated 7684 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 26948|app: 0|req: 16/136] 192.168.134.1 () {42 vars in 823 bytes} [Fri Oct 29 21:56:59 2021] GET /favicon.ico => generated 85 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 12/137] 192.168.134.1 () {52 vars in 1141 bytes} [Fri Oct 29 21:57:10 2021] POST /admin/login/?next=/admin/ => generated 0 bytes in 76 msecs (HTTP/1.1 302) 9 headers in 531 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 17/138] 192.168.134.1 () {46 vars in 994 bytes} [Fri Oct 29 21:57:10 2021] GET /admin/ => generated 26044 bytes in 76 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 17/139] 192.168.134.1 () {42 vars in 787 bytes} [Fri Oct 29 21:57:10 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 18/140] 192.168.134.1 () {44 vars in 992 bytes} [Fri Oct 29 21:57:18 2021] GET /admin/companyinfo/companyinfo/ => generated 23150 bytes in 79 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 19/141] 192.168.134.1 () {42 vars in 815 bytes} [Fri Oct 29 21:57:18 2021] GET /admin/jsi18n/ => generated 7684 bytes in 43 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 26947|app: 0|req: 13/142] 192.168.134.1 () {42 vars in 811 bytes} [Fri Oct 29 21:57:18 2021] GET /jet/jsi18n/ => generated 7684 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 26949|app: 0|req: 18/143] 192.168.134.1 () {44 vars in 992 bytes} [Fri Oct 29 21:57:22 2021] GET /admin/companyinfo/ => generated 22246 bytes in 49 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 13/144] 192.168.134.1 () {42 vars in 799 bytes} [Fri Oct 29 21:57:22 2021] GET /jet/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 14/145] 192.168.134.1 () {44 vars in 994 bytes} [Fri Oct 29 21:57:26 2021] GET /admin/companyinfo/supers/ => generated 21947 bytes in 141 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 20/146] 192.168.134.1 () {42 vars in 806 bytes} [Fri Oct 29 21:57:26 2021] GET /jet/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 19/147] 192.168.134.1 () {42 vars in 810 bytes} [Fri Oct 29 21:57:26 2021] GET /admin/jsi18n/ => generated 7684 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 14/148] 192.168.134.1 () {44 vars in 987 bytes} [Fri Oct 29 21:57:29 2021] GET /admin/companyinfo/ => generated 22246 bytes in 68 msecs (HTTP/1.1 200) 7 headers in 382 bytes (2 switches on core 0)
+[pid: 26948|app: 0|req: 21/149] 192.168.134.1 () {42 vars in 799 bytes} [Fri Oct 29 21:57:30 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 22/150] 192.168.134.1 () {44 vars in 1000 bytes} [Fri Oct 29 21:57:31 2021] GET /admin/companyinfo/employees/ => generated 21705 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 15/151] 192.168.134.1 () {42 vars in 813 bytes} [Fri Oct 29 21:57:31 2021] GET /admin/jsi18n/ => generated 7684 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 12/152] 192.168.134.1 () {42 vars in 809 bytes} [Fri Oct 29 21:57:31 2021] GET /jet/jsi18n/ => generated 7684 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 23/153] 192.168.134.1 () {44 vars in 1028 bytes} [Fri Oct 29 21:57:33 2021] GET /admin/companyinfo/employees/3/change/ => generated 23493 bytes in 58 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 24/154] 192.168.134.1 () {42 vars in 822 bytes} [Fri Oct 29 21:57:33 2021] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 15/155] 192.168.134.1 () {42 vars in 818 bytes} [Fri Oct 29 21:57:33 2021] GET /jet/jsi18n/ => generated 7684 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 16/156] 192.168.134.1 () {52 vars in 1296 bytes} [Fri Oct 29 21:58:14 2021] POST /admin/companyinfo/employees/3/change/ => generated 0 bytes in 72 msecs (HTTP/1.1 302) 8 headers in 530 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 17/157] 192.168.134.1 () {46 vars in 1281 bytes} [Fri Oct 29 21:58:15 2021] GET /admin/companyinfo/employees/ => generated 21885 bytes in 61 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 18/158] 192.168.134.1 () {42 vars in 809 bytes} [Fri Oct 29 21:58:15 2021] GET /jet/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 16/159] 192.168.134.1 () {42 vars in 813 bytes} [Fri Oct 29 21:58:15 2021] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 19/160] 192.168.134.1 () {44 vars in 1028 bytes} [Fri Oct 29 21:58:19 2021] GET /admin/companyinfo/employees/3/change/ => generated 23509 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 25/161] 192.168.134.1 () {42 vars in 818 bytes} [Fri Oct 29 21:58:19 2021] GET /jet/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 20/162] 192.168.134.1 () {42 vars in 822 bytes} [Fri Oct 29 21:58:19 2021] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 15/163] 192.168.134.1 () {44 vars in 963 bytes} [Fri Oct 29 21:58:27 2021] GET / => generated 30747 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 14/164] 192.168.134.1 () {42 vars in 854 bytes} [Fri Oct 29 21:58:27 2021] GET /media/imgs/46.png => generated 91 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 26/165] 192.168.134.1 () {42 vars in 854 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/56.jpg => generated 91 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 27/166] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 28/167] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26945|app: 0|req: 15/168] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 16/169] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 15/170] 192.168.134.1 () {42 vars in 860 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 17/171] 192.168.134.1 () {42 vars in 860 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 29/172] 192.168.134.1 () {42 vars in 876 bytes} [Fri Oct 29 21:58:28 2021] GET /media/imgs/tes-1_jHXfId2.jpg => generated 102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26950|app: 0|req: 17/173] 192.168.134.1 () {44 vars in 918 bytes} [Fri Oct 29 21:58:48 2021] GET / => generated 30747 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 16/174] 192.168.134.1 () {42 vars in 854 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/46.png => generated 91 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 18/175] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 16/176] 192.168.134.1 () {42 vars in 860 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 21/177] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 16/178] 192.168.134.1 () {42 vars in 876 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/tes-1_jHXfId2.jpg => generated 102 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 13/180] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 9 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 20/180] 192.168.134.1 () {42 vars in 870 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26947|app: 0|req: 17/181] 192.168.134.1 () {42 vars in 860 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 14 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 19/182] 192.168.134.1 () {42 vars in 854 bytes} [Fri Oct 29 21:58:48 2021] GET /media/imgs/56.jpg => generated 91 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 20/183] 192.168.134.1 () {52 vars in 1298 bytes} [Fri Oct 29 23:06:27 2021] POST /admin/companyinfo/employees/3/change/ => generated 0 bytes in 75 msecs (HTTP/1.1 302) 8 headers in 530 bytes (5 switches on core 0)
+[pid: 26943|app: 0|req: 21/184] 192.168.134.1 () {46 vars in 1281 bytes} [Fri Oct 29 23:06:27 2021] GET /admin/companyinfo/employees/ => generated 21885 bytes in 54 msecs (HTTP/1.1 200) 8 headers in 466 bytes (2 switches on core 0)
+[pid: 26947|app: 0|req: 18/185] 192.168.134.1 () {42 vars in 809 bytes} [Fri Oct 29 23:06:28 2021] GET /jet/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26944|app: 0|req: 21/186] 192.168.134.1 () {42 vars in 813 bytes} [Fri Oct 29 23:06:28 2021] GET /admin/jsi18n/ => generated 7684 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 26942|app: 0|req: 14/187] 192.168.134.1 () {44 vars in 1028 bytes} [Fri Oct 29 23:06:30 2021] GET /admin/companyinfo/employees/3/change/ => generated 23491 bytes in 108 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 26942|app: 0|req: 15/188] 192.168.134.1 () {42 vars in 818 bytes} [Fri Oct 29 23:06:31 2021] GET /jet/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 22/189] 192.168.134.1 () {42 vars in 822 bytes} [Fri Oct 29 23:06:31 2021] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 17/190] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 00:25:45 2021] GET / => generated 30738 bytes in 64 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 18/191] 192.168.134.1 () {42 vars in 854 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/46.png => generated 91 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26944|app: 0|req: 22/192] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/46_tTAFgOs.png => generated 99 bytes in 25 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 26942|app: 0|req: 16/193] 192.168.134.1 () {42 vars in 860 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/tes-1.jpg => generated 94 bytes in 30 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26945|app: 0|req: 19/194] 192.168.134.1 () {42 vars in 854 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/56.jpg => generated 91 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26948|app: 0|req: 30/195] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/46_SuhobAo.png => generated 99 bytes in 40 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26951|app: 0|req: 17/196] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/46_rfrpqY0.png => generated 99 bytes in 41 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26946|app: 0|req: 15/197] 192.168.134.1 () {42 vars in 858 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/lgh1.jpg => generated 93 bytes in 26 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26949|app: 0|req: 22/198] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/46_DduWRyV.png => generated 99 bytes in 46 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 26943|app: 0|req: 23/199] 192.168.134.1 () {42 vars in 860 bytes} [Sat Oct 30 00:25:45 2021] GET /media/imgs/tes-3.jpg => generated 94 bytes in 42 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 12:59:55 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a3a9292ac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a3a9292ac0 pid: 31628 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31628)
+spawned uWSGI worker 1 (pid: 31630, cores: 1)
+spawned uWSGI worker 2 (pid: 31631, cores: 1)
+spawned uWSGI worker 3 (pid: 31632, cores: 1)
+spawned uWSGI worker 4 (pid: 31633, cores: 1)
+spawned uWSGI worker 5 (pid: 31634, cores: 1)
+spawned uWSGI worker 6 (pid: 31635, cores: 1)
+spawned uWSGI worker 7 (pid: 31636, cores: 1)
+spawned uWSGI worker 8 (pid: 31637, cores: 1)
+spawned uWSGI worker 9 (pid: 31638, cores: 1)
+spawned uWSGI worker 10 (pid: 31639, cores: 1)
+[pid: 31638|app: 0|req: 1/1] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:00:00 2021] GET / => generated 30738 bytes in 93 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31638|app: 0|req: 2/2] 192.168.134.1 () {42 vars in 854 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/46.png => generated 162239 bytes in 89 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31633|app: 0|req: 1/3] 192.168.134.1 () {42 vars in 860 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/tes-1.jpg => generated 18682 bytes in 135 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31634|app: 0|req: 1/4] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/46_SuhobAo.png => generated 162239 bytes in 169 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31632|app: 0|req: 1/5] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/46_tTAFgOs.png => generated 162239 bytes in 174 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31631|app: 0|req: 1/6] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/46_rfrpqY0.png => generated 162239 bytes in 178 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31634|app: 0|req: 2/7] 192.168.134.1 () {42 vars in 854 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/56.jpg => generated 243780 bytes in 9 msecs via sendfile() (HTTP/1.1 200) 4 headers in 144 bytes (0 switches on core 0)
+[pid: 31630|app: 0|req: 1/8] 192.168.134.1 () {42 vars in 870 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/46_DduWRyV.png => generated 162239 bytes in 230 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31637|app: 0|req: 1/9] 192.168.134.1 () {42 vars in 860 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/tes-3.jpg => generated 20563 bytes in 143 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31635|app: 0|req: 1/10] 192.168.134.1 () {42 vars in 858 bytes} [Sat Oct 30 01:00:01 2021] GET /media/imgs/lgh1.jpg => generated 889511 bytes in 130 msecs via sendfile() (HTTP/1.1 200) 4 headers in 144 bytes (3 switches on core 0)
+...brutally killing workers...
+Sat Oct 30 01:03:28 2021 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:03:28 2021 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:03:28 2021 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 13:03:47 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562ef541fac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562ef541fac0 pid: 31667 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31667)
+spawned uWSGI worker 1 (pid: 31669, cores: 1)
+spawned uWSGI worker 2 (pid: 31670, cores: 1)
+spawned uWSGI worker 3 (pid: 31671, cores: 1)
+spawned uWSGI worker 4 (pid: 31672, cores: 1)
+spawned uWSGI worker 5 (pid: 31673, cores: 1)
+spawned uWSGI worker 6 (pid: 31674, cores: 1)
+spawned uWSGI worker 7 (pid: 31675, cores: 1)
+spawned uWSGI worker 8 (pid: 31676, cores: 1)
+spawned uWSGI worker 9 (pid: 31677, cores: 1)
+spawned uWSGI worker 10 (pid: 31678, cores: 1)
+[pid: 31672|app: 0|req: 1/1] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:03:52 2021] GET / => generated 30738 bytes in 54 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 1/2] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:04:20 2021] GET / => generated 30738 bytes in 109 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31678|app: 0|req: 1/3] 192.168.134.1 () {52 vars in 1298 bytes} [Sat Oct 30 01:06:55 2021] POST /admin/companyinfo/employees/3/change/ => generated 0 bytes in 75 msecs (HTTP/1.1 302) 8 headers in 530 bytes (2 switches on core 0)
+[pid: 31674|app: 0|req: 1/4] 192.168.134.1 () {46 vars in 1281 bytes} [Sat Oct 30 01:06:55 2021] GET /admin/companyinfo/employees/ => generated 21885 bytes in 167 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31676|app: 0|req: 1/5] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:06:56 2021] GET /jet/jsi18n/ => generated 7684 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31675|app: 0|req: 1/6] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:06:56 2021] GET /admin/jsi18n/ => generated 7684 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31675|app: 0|req: 2/7] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:06:59 2021] GET /admin/companyinfo/employees/3/change/ => generated 23569 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31678|app: 0|req: 2/8] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:06:59 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31675|app: 0|req: 3/9] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:06:59 2021] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31674|app: 0|req: 2/10] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:07:13 2021] GET / => generated 30759 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31671|app: 0|req: 1/11] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:07:13 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 53 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 2/12] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:09:39 2021] GET / => generated 30759 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 3/13] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:09:39 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 4/14] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:10:59 2021] GET / => generated 30759 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 279 bytes (2 switches on core 0)
+[pid: 31677|app: 0|req: 5/15] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:11:00 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31672|app: 0|req: 2/16] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:11:13 2021] GET / => generated 30759 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31669|app: 0|req: 1/17] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:11:13 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 314628 bytes in 57 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (1 switches on core 0)
+[pid: 31678|app: 0|req: 3/18] 192.168.134.1 () {46 vars in 1134 bytes} [Sat Oct 30 01:13:14 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 18 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31674|app: 0|req: 3/19] 192.168.134.1 () {42 vars in 909 bytes} [Sat Oct 30 01:13:40 2021] GET /media/imgs/ => generated 85 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31674|app: 0|req: 4/20] 192.168.134.1 () {42 vars in 899 bytes} [Sat Oct 30 01:13:47 2021] GET /media/ => generated 80 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 6/21] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:13:51 2021] GET /admin/companyinfo/employees/3/change/ => generated 23569 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31676|app: 0|req: 2/22] 192.168.134.1 () {44 vars in 1079 bytes} [Sat Oct 30 01:14:02 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 7/23] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:19:05 2021] GET / => generated 30759 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31677|app: 0|req: 8/24] 192.168.134.1 () {44 vars in 991 bytes} [Sat Oct 30 01:19:06 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 13:20:04 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5573db09bac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5573db09bac0 pid: 31780 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31780)
+spawned uWSGI worker 1 (pid: 31782, cores: 1)
+spawned uWSGI worker 2 (pid: 31783, cores: 1)
+spawned uWSGI worker 3 (pid: 31784, cores: 1)
+spawned uWSGI worker 4 (pid: 31785, cores: 1)
+spawned uWSGI worker 5 (pid: 31786, cores: 1)
+spawned uWSGI worker 6 (pid: 31787, cores: 1)
+spawned uWSGI worker 7 (pid: 31788, cores: 1)
+spawned uWSGI worker 8 (pid: 31789, cores: 1)
+spawned uWSGI worker 9 (pid: 31790, cores: 1)
+spawned uWSGI worker 10 (pid: 31791, cores: 1)
+[pid: 31790|app: 0|req: 1/1] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:20:09 2021] GET / => generated 30759 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31786|app: 0|req: 1/2] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:20:09 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 34 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31782|app: 0|req: 1/3] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:20:20 2021] GET / => generated 30759 bytes in 59 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31785|app: 0|req: 1/4] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:20:21 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 48 msecs (HTTP/1.1 404) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31791|app: 0|req: 1/5] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:20:42 2021] GET / => generated 30759 bytes in 114 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31791|app: 0|req: 2/6] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:20:42 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 15 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+...brutally killing workers...
+Sat Oct 30 01:23:44 2021 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Oct 30 01:23:44 2021 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 13:27:10 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5618b21b9ac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5618b21b9ac0 pid: 31832 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31832)
+spawned uWSGI worker 1 (pid: 31834, cores: 1)
+spawned uWSGI worker 2 (pid: 31835, cores: 1)
+spawned uWSGI worker 3 (pid: 31836, cores: 1)
+spawned uWSGI worker 4 (pid: 31837, cores: 1)
+spawned uWSGI worker 5 (pid: 31838, cores: 1)
+spawned uWSGI worker 6 (pid: 31839, cores: 1)
+spawned uWSGI worker 7 (pid: 31840, cores: 1)
+spawned uWSGI worker 8 (pid: 31841, cores: 1)
+spawned uWSGI worker 9 (pid: 31842, cores: 1)
+spawned uWSGI worker 10 (pid: 31843, cores: 1)
+[pid: 31842|app: 0|req: 1/1] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:27:20 2021] GET / => generated 30759 bytes in 96 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 1/2] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:27:20 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 59 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 1/3] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:28:06 2021] GET / => generated 30759 bytes in 109 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 2/4] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:28:06 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 3/5] 192.168.134.1 () {42 vars in 899 bytes} [Sat Oct 30 01:28:18 2021] GET /admin/ => generated 26044 bytes in 97 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 1/6] 192.168.134.1 () {42 vars in 787 bytes} [Sat Oct 30 01:28:18 2021] GET /jet/jsi18n/ => generated 7684 bytes in 60 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31839|app: 0|req: 4/7] 192.168.134.1 () {42 vars in 848 bytes} [Sat Oct 30 01:28:19 2021] GET /favicon.ico => generated 85 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 2/8] 192.168.134.1 () {44 vars in 988 bytes} [Sat Oct 30 01:28:21 2021] GET /admin/companyinfo/employees/ => generated 21705 bytes in 89 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 2/9] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:28:21 2021] GET /admin/jsi18n/ => generated 7684 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 1/10] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:28:21 2021] GET /jet/jsi18n/ => generated 7684 bytes in 58 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31841|app: 0|req: 1/11] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:28:23 2021] GET /admin/companyinfo/employees/3/change/ => generated 23569 bytes in 116 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 3/12] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:28:23 2021] GET /jet/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 2/13] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:28:23 2021] GET /admin/jsi18n/ => generated 7684 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 4/14] 192.168.134.1 () {44 vars in 999 bytes} [Sat Oct 30 01:29:01 2021] GET /admin/companyinfo/ => generated 22246 bytes in 49 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31838|app: 0|req: 1/15] 192.168.134.1 () {42 vars in 799 bytes} [Sat Oct 30 01:29:02 2021] GET /jet/jsi18n/ => generated 7684 bytes in 43 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 1/16] 192.168.134.1 () {44 vars in 1000 bytes} [Sat Oct 30 01:29:03 2021] GET /admin/companyinfo/employees/ => generated 21705 bytes in 108 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 2/17] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:29:03 2021] GET /admin/jsi18n/ => generated 7684 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31836|app: 0|req: 1/18] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:29:03 2021] GET /jet/jsi18n/ => generated 7684 bytes in 38 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 5/19] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:29:05 2021] GET /admin/companyinfo/employees/2/change/ => generated 23535 bytes in 51 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 3/20] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:29:05 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 5/21] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:29:05 2021] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 3/22] 192.168.134.1 () {52 vars in 1298 bytes} [Sat Oct 30 01:29:17 2021] POST /admin/companyinfo/employees/2/change/ => generated 0 bytes in 54 msecs (HTTP/1.1 302) 8 headers in 528 bytes (2 switches on core 0)
+[pid: 31835|app: 0|req: 1/23] 192.168.134.1 () {46 vars in 1279 bytes} [Sat Oct 30 01:29:17 2021] GET /admin/companyinfo/employees/ => generated 21883 bytes in 145 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 6/24] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:29:17 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31835|app: 0|req: 2/25] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:29:17 2021] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31841|app: 0|req: 2/26] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:29:19 2021] GET /admin/companyinfo/employees/1/change/ => generated 23489 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 7/27] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:29:19 2021] GET /jet/jsi18n/ => generated 7684 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31836|app: 0|req: 2/28] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:29:19 2021] GET /admin/jsi18n/ => generated 7684 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 31839|app: 0|req: 6/29] 192.168.134.1 () {52 vars in 1298 bytes} [Sat Oct 30 01:29:40 2021] POST /admin/companyinfo/employees/1/change/ => generated 0 bytes in 41 msecs (HTTP/1.1 302) 8 headers in 528 bytes (116 switches on core 0)
+[pid: 31841|app: 0|req: 3/30] 192.168.134.1 () {46 vars in 1279 bytes} [Sat Oct 30 01:29:40 2021] GET /admin/companyinfo/employees/ => generated 21883 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 466 bytes (2 switches on core 0)
+[pid: 31839|app: 0|req: 7/31] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:29:40 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 8/32] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:29:40 2021] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 9/33] 192.168.134.1 () {44 vars in 954 bytes} [Sat Oct 30 01:30:04 2021] GET / => generated 30783 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 10/34] 192.168.134.1 () {42 vars in 874 bytes} [Sat Oct 30 01:30:05 2021] GET /media/imgs/lgh1_0ySCmXM.jpg => generated 101 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 4/35] 192.168.134.1 () {42 vars in 906 bytes} [Sat Oct 30 01:30:05 2021] GET /media/imgs/QQ%E5%9B%BE%E7%89%8720210930125053.png => generated 111 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31838|app: 0|req: 2/36] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:30:05 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31838|app: 0|req: 3/37] 192.168.134.1 () {44 vars in 1004 bytes} [Sat Oct 30 01:31:35 2021] GET /admin/companyinfo/supers/ => generated 21947 bytes in 119 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31841|app: 0|req: 4/38] 192.168.134.1 () {42 vars in 806 bytes} [Sat Oct 30 01:31:35 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 11/39] 192.168.134.1 () {42 vars in 810 bytes} [Sat Oct 30 01:31:35 2021] GET /admin/jsi18n/ => generated 7684 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 31840|app: 0|req: 12/40] 192.168.134.1 () {44 vars in 1019 bytes} [Sat Oct 30 01:31:37 2021] GET /admin/companyinfo/supers/4/change/ => generated 22427 bytes in 30 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 8/41] 192.168.134.1 () {42 vars in 815 bytes} [Sat Oct 30 01:31:37 2021] GET /jet/jsi18n/ => generated 7684 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 13/42] 192.168.134.1 () {42 vars in 819 bytes} [Sat Oct 30 01:31:37 2021] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 14/43] 192.168.134.1 () {44 vars in 982 bytes} [Sat Oct 30 01:31:44 2021] GET /admin/auth/ => generated 19584 bytes in 76 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 15/44] 192.168.134.1 () {42 vars in 792 bytes} [Sat Oct 30 01:31:44 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 16/45] 192.168.134.1 () {44 vars in 973 bytes} [Sat Oct 30 01:31:45 2021] GET /admin/companyinfo/ => generated 22246 bytes in 21 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 3/46] 192.168.134.1 () {42 vars in 799 bytes} [Sat Oct 30 01:31:46 2021] GET /jet/jsi18n/ => generated 7684 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 4/47] 192.168.134.1 () {44 vars in 998 bytes} [Sat Oct 30 01:31:52 2021] GET /admin/companyinfo/services/ => generated 22436 bytes in 104 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 5/48] 192.168.134.1 () {42 vars in 808 bytes} [Sat Oct 30 01:31:52 2021] GET /jet/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 2/49] 192.168.134.1 () {42 vars in 812 bytes} [Sat Oct 30 01:31:52 2021] GET /admin/jsi18n/ => generated 7684 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 5/50] 192.168.134.1 () {44 vars in 1025 bytes} [Sat Oct 30 01:31:54 2021] GET /admin/companyinfo/services/6/change/ => generated 22519 bytes in 68 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 4/51] 192.168.134.1 () {42 vars in 817 bytes} [Sat Oct 30 01:31:55 2021] GET /jet/jsi18n/ => generated 7684 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 6/52] 192.168.134.1 () {42 vars in 821 bytes} [Sat Oct 30 01:31:55 2021] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31836|app: 0|req: 3/53] 192.168.134.1 () {52 vars in 1289 bytes} [Sat Oct 30 01:32:15 2021] POST /admin/companyinfo/services/6/change/ => generated 0 bytes in 60 msecs (HTTP/1.1 302) 8 headers in 566 bytes (1 switches on core 0)
+[pid: 31838|app: 0|req: 4/54] 192.168.134.1 () {46 vars in 1315 bytes} [Sat Oct 30 01:32:15 2021] GET /admin/companyinfo/services/ => generated 22629 bytes in 29 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31838|app: 0|req: 5/55] 192.168.134.1 () {42 vars in 808 bytes} [Sat Oct 30 01:32:15 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 3/56] 192.168.134.1 () {42 vars in 812 bytes} [Sat Oct 30 01:32:15 2021] GET /admin/jsi18n/ => generated 7684 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 17/57] 192.168.134.1 () {44 vars in 1025 bytes} [Sat Oct 30 01:32:19 2021] GET /admin/companyinfo/services/4/change/ => generated 22492 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 4/58] 192.168.134.1 () {42 vars in 817 bytes} [Sat Oct 30 01:32:19 2021] GET /jet/jsi18n/ => generated 7684 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31841|app: 0|req: 5/59] 192.168.134.1 () {42 vars in 821 bytes} [Sat Oct 30 01:32:19 2021] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31842|app: 0|req: 7/60] 192.168.134.1 () {44 vars in 998 bytes} [Sat Oct 30 01:32:24 2021] GET /admin/companyinfo/ => generated 22246 bytes in 24 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 5/61] 192.168.134.1 () {42 vars in 799 bytes} [Sat Oct 30 01:32:25 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31839|app: 0|req: 9/62] 192.168.134.1 () {44 vars in 1000 bytes} [Sat Oct 30 01:32:27 2021] GET /admin/companyinfo/customers/ => generated 22185 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 6/63] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:32:27 2021] GET /jet/jsi18n/ => generated 7684 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31837|app: 0|req: 7/64] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:32:27 2021] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 18/65] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:32:28 2021] GET /admin/companyinfo/customers/5/change/ => generated 23671 bytes in 46 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31834|app: 0|req: 6/66] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:32:28 2021] GET /jet/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 19/67] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:32:28 2021] GET /admin/jsi18n/ => generated 7684 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 20/68] 192.168.134.1 () {52 vars in 1298 bytes} [Sat Oct 30 01:32:52 2021] POST /admin/companyinfo/customers/5/change/ => generated 0 bytes in 163 msecs (HTTP/1.1 302) 8 headers in 545 bytes (4 switches on core 0)
+[pid: 31838|app: 0|req: 6/69] 192.168.134.1 () {46 vars in 1296 bytes} [Sat Oct 30 01:32:52 2021] GET /admin/companyinfo/customers/ => generated 22368 bytes in 24 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31841|app: 0|req: 6/70] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:32:52 2021] GET /jet/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31843|app: 0|req: 5/71] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:32:52 2021] GET /admin/jsi18n/ => generated 7684 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 21/72] 192.168.134.1 () {44 vars in 911 bytes} [Sat Oct 30 01:33:04 2021] GET / => generated 30788 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 10/74] 192.168.134.1 () {44 vars in 882 bytes} [Sat Oct 30 01:33:04 2021] GET /media/imgs/lgh1_0ySCmXM.jpg => generated 101 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 22/74] 192.168.134.1 () {44 vars in 888 bytes} [Sat Oct 30 01:33:04 2021] GET /media/imgs/result_Yuxi_Liu.png => generated 104 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31839|app: 0|req: 11/75] 192.168.134.1 () {44 vars in 914 bytes} [Sat Oct 30 01:33:04 2021] GET /media/imgs/QQ%E5%9B%BE%E7%89%8720210930125053.png => generated 111 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31840|app: 0|req: 23/76] 192.168.134.1 () {44 vars in 944 bytes} [Sat Oct 30 01:33:04 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 114 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+...brutally killing workers...
+[uWSGI] getting INI configuration from company_uwsgi.ini
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Oct 29 13:34:48 2021] ***
+compiled with version: 7.5.0 on 28 October 2021 18:42:01
+os: Linux-5.4.0-84-generic #94~18.04.1-Ubuntu SMP Thu Aug 26 23:17:46 UTC 2021
+nodename: gliu-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/gliu/srv/company3/company
+detected binary path: /home/gliu/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/gliu/srv/company3/company
+your processes number limit is 15435
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/gliu/srv/company3/company/company.sock fd 3
+Python version: 3.6.9 (default, Jan 26 2021, 15:33:00)  [GCC 8.4.0]
+PEP 405 virtualenv detected: /home/gliu/.virtualenvs/django-env-py3
+Set PythonHome to /home/gliu/.virtualenvs/django-env-py3
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bc1fa0dac0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 802120 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55bc1fa0dac0 pid: 31876 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 31876)
+spawned uWSGI worker 1 (pid: 31878, cores: 1)
+spawned uWSGI worker 2 (pid: 31879, cores: 1)
+spawned uWSGI worker 3 (pid: 31880, cores: 1)
+spawned uWSGI worker 4 (pid: 31881, cores: 1)
+spawned uWSGI worker 5 (pid: 31882, cores: 1)
+spawned uWSGI worker 6 (pid: 31883, cores: 1)
+spawned uWSGI worker 7 (pid: 31884, cores: 1)
+spawned uWSGI worker 8 (pid: 31885, cores: 1)
+spawned uWSGI worker 9 (pid: 31886, cores: 1)
+spawned uWSGI worker 10 (pid: 31887, cores: 1)
+[pid: 31883|app: 0|req: 1/1] 192.168.134.1 () {44 vars in 918 bytes} [Sat Oct 30 01:34:55 2021] GET / => generated 30788 bytes in 47 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 2/2] 192.168.134.1 () {42 vars in 880 bytes} [Sat Oct 30 01:34:55 2021] GET /media/imgs/result_Yuxi_Liu.png => generated 282378 bytes in 27 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (1 switches on core 0)
+[pid: 31880|app: 0|req: 1/3] 192.168.134.1 () {42 vars in 906 bytes} [Sat Oct 30 01:34:55 2021] GET /media/imgs/QQ%E5%9B%BE%E7%89%8720210930125053.png => generated 206720 bytes in 77 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31879|app: 0|req: 1/4] 192.168.134.1 () {42 vars in 936 bytes} [Sat Oct 30 01:34:55 2021] GET /media/imgs/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8%E5%9B%BE.png => generated 314628 bytes in 89 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (1 switches on core 0)
+[pid: 31881|app: 0|req: 1/5] 192.168.134.1 () {42 vars in 874 bytes} [Sat Oct 30 01:34:55 2021] GET /media/imgs/lgh1_0ySCmXM.jpg => generated 889511 bytes in 125 msecs via sendfile() (HTTP/1.1 200) 4 headers in 144 bytes (3 switches on core 0)
+[pid: 31884|app: 0|req: 1/6] 192.168.134.1 () {42 vars in 899 bytes} [Sat Oct 30 01:35:48 2021] GET /admin/ => generated 26044 bytes in 138 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 3/7] 192.168.134.1 () {42 vars in 787 bytes} [Sat Oct 30 01:35:48 2021] GET /jet/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31882|app: 0|req: 1/8] 192.168.134.1 () {44 vars in 988 bytes} [Sat Oct 30 01:35:51 2021] GET /admin/companyinfo/customers/ => generated 22185 bytes in 124 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 2/9] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:35:51 2021] GET /admin/jsi18n/ => generated 7684 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 1/10] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:35:51 2021] GET /jet/jsi18n/ => generated 7684 bytes in 48 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 3/11] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:35:53 2021] GET /admin/companyinfo/customers/5/change/ => generated 23681 bytes in 53 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 4/12] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:35:53 2021] GET /jet/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 4/13] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:35:53 2021] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 1/14] 192.168.134.1 () {52 vars in 1298 bytes} [Sat Oct 30 01:36:21 2021] POST /admin/companyinfo/customers/5/change/ => generated 0 bytes in 340 msecs (HTTP/1.1 302) 8 headers in 545 bytes (2 switches on core 0)
+[pid: 31881|app: 0|req: 2/15] 192.168.134.1 () {46 vars in 1296 bytes} [Sat Oct 30 01:36:22 2021] GET /admin/companyinfo/customers/ => generated 22368 bytes in 155 msecs (HTTP/1.1 200) 8 headers in 466 bytes (2 switches on core 0)
+[pid: 31882|app: 0|req: 5/16] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:36:22 2021] GET /jet/jsi18n/ => generated 7684 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 2/17] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:36:22 2021] GET /admin/jsi18n/ => generated 7684 bytes in 43 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 6/18] 192.168.134.1 () {44 vars in 990 bytes} [Sat Oct 30 01:36:25 2021] GET /admin/companyinfo/ => generated 22246 bytes in 25 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31884|app: 0|req: 2/19] 192.168.134.1 () {42 vars in 799 bytes} [Sat Oct 30 01:36:25 2021] GET /jet/jsi18n/ => generated 7684 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31882|app: 0|req: 7/20] 192.168.134.1 () {44 vars in 1000 bytes} [Sat Oct 30 01:36:27 2021] GET /admin/companyinfo/employees/ => generated 21705 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31880|app: 0|req: 2/21] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:36:27 2021] GET /jet/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 1/22] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:36:27 2021] GET /admin/jsi18n/ => generated 7684 bytes in 73 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 2/23] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:36:29 2021] GET /admin/companyinfo/employees/3/change/ => generated 23569 bytes in 81 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 8/24] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:36:29 2021] GET /jet/jsi18n/ => generated 7684 bytes in 4 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 5/25] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:36:29 2021] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31884|app: 0|req: 3/26] 192.168.134.1 () {52 vars in 1296 bytes} [Sat Oct 30 01:36:42 2021] POST /admin/companyinfo/employees/3/change/ => generated 0 bytes in 21 msecs (HTTP/1.1 302) 8 headers in 530 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 3/27] 192.168.134.1 () {46 vars in 1281 bytes} [Sat Oct 30 01:36:42 2021] GET /admin/companyinfo/employees/ => generated 21885 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31881|app: 0|req: 3/28] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:36:42 2021] GET /jet/jsi18n/ => generated 7684 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 9/29] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:36:42 2021] GET /admin/jsi18n/ => generated 7684 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 3/30] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:36:44 2021] GET /admin/companyinfo/employees/2/change/ => generated 23581 bytes in 101 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31886|app: 0|req: 4/31] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:36:45 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 2/32] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:36:45 2021] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 10/33] 192.168.134.1 () {52 vars in 1296 bytes} [Sat Oct 30 01:36:49 2021] POST /admin/companyinfo/employees/2/change/ => generated 0 bytes in 107 msecs (HTTP/1.1 302) 8 headers in 528 bytes (2 switches on core 0)
+[pid: 31878|app: 0|req: 1/34] 192.168.134.1 () {46 vars in 1279 bytes} [Sat Oct 30 01:36:49 2021] GET /admin/companyinfo/employees/ => generated 21883 bytes in 784 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31878|app: 0|req: 2/35] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:36:50 2021] GET /jet/jsi18n/ => generated 7684 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31885|app: 0|req: 3/36] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:36:50 2021] GET /admin/jsi18n/ => generated 7684 bytes in 63 msecs (HTTP/1.1 200) 4 headers in 115 bytes (2 switches on core 0)
+[pid: 31878|app: 0|req: 3/37] 192.168.134.1 () {44 vars in 1028 bytes} [Sat Oct 30 01:36:52 2021] GET /admin/companyinfo/employees/1/change/ => generated 23503 bytes in 144 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 4/38] 192.168.134.1 () {42 vars in 818 bytes} [Sat Oct 30 01:36:52 2021] GET /jet/jsi18n/ => generated 7684 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 101 bytes (2 switches on core 0)
+[pid: 31883|app: 0|req: 6/39] 192.168.134.1 () {42 vars in 822 bytes} [Sat Oct 30 01:36:52 2021] GET /admin/jsi18n/ => generated 7684 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 7/40] 192.168.134.1 () {52 vars in 1296 bytes} [Sat Oct 30 01:36:59 2021] POST /admin/companyinfo/employees/1/change/ => generated 0 bytes in 202 msecs (HTTP/1.1 302) 8 headers in 528 bytes (2 switches on core 0)
+[pid: 31883|app: 0|req: 8/41] 192.168.134.1 () {46 vars in 1279 bytes} [Sat Oct 30 01:36:59 2021] GET /admin/companyinfo/employees/ => generated 21883 bytes in 294 msecs (HTTP/1.1 200) 8 headers in 466 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 4/42] 192.168.134.1 () {42 vars in 809 bytes} [Sat Oct 30 01:36:59 2021] GET /jet/jsi18n/ => generated 7684 bytes in 70 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 5/43] 192.168.134.1 () {42 vars in 813 bytes} [Sat Oct 30 01:36:59 2021] GET /admin/jsi18n/ => generated 7684 bytes in 148 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31883|app: 0|req: 9/44] 192.168.134.1 () {44 vars in 954 bytes} [Sat Oct 30 01:37:05 2021] GET / => generated 30771 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31881|app: 0|req: 4/45] 192.168.134.1 () {42 vars in 876 bytes} [Sat Oct 30 01:37:06 2021] GET /media/imgs/tes-2_11bDaom.jpg => generated 23862 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31885|app: 0|req: 5/46] 192.168.134.1 () {42 vars in 886 bytes} [Sat Oct 30 01:37:06 2021] GET /media/imgs/46_rfrpqY0_eUiqPXo.png => generated 162239 bytes in 15 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31882|app: 0|req: 11/47] 192.168.134.1 () {42 vars in 876 bytes} [Sat Oct 30 01:37:06 2021] GET /media/imgs/tes-3_xd2MUUw.jpg => generated 20563 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 31885|app: 0|req: 6/48] 192.168.134.1 () {42 vars in 876 bytes} [Sat Oct 30 01:37:06 2021] GET /media/imgs/tes-1_h7ZCNrJ.jpg => generated 18682 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 4 headers in 143 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 7/49] 192.168.134.1 () {44 vars in 954 bytes} [Sat Oct 30 01:37:13 2021] GET / => generated 30771 bytes in 66 msecs (HTTP/1.1 200) 5 headers in 279 bytes (2 switches on core 0)
+[pid: 31886|app: 0|req: 5/50] 192.168.134.1 () {44 vars in 941 bytes} [Sat Oct 30 01:37:13 2021] GET /media/imgs/46_rfrpqY0_eUiqPXo.png => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31885|app: 0|req: 8/51] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:37:13 2021] GET /media/imgs/tes-2_11bDaom.jpg => generated 0 bytes in 5 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31887|app: 0|req: 6/52] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:37:13 2021] GET /media/imgs/tes-3_xd2MUUw.jpg => generated 0 bytes in 3 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31884|app: 0|req: 4/53] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:37:13 2021] GET /media/imgs/tes-1_h7ZCNrJ.jpg => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31883|app: 0|req: 10/54] 192.168.134.1 () {42 vars in 897 bytes} [Sat Oct 30 01:37:56 2021] GET /media => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 7/55] 192.168.134.1 () {42 vars in 899 bytes} [Sat Oct 30 01:37:56 2021] GET /media/ => generated 80 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (2 switches on core 0)
+[pid: 31882|app: 0|req: 12/56] 192.168.134.1 () {42 vars in 899 bytes} [Sat Oct 30 01:38:58 2021] GET /media/ => generated 80 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 13/57] 192.168.134.1 () {42 vars in 905 bytes} [Sat Oct 30 01:39:12 2021] GET /media/img => generated 83 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31884|app: 0|req: 5/58] 192.168.134.1 () {42 vars in 887 bytes} [Sat Oct 30 01:39:18 2021] GET / => generated 30771 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 14/59] 192.168.134.1 () {44 vars in 941 bytes} [Sat Oct 30 01:39:19 2021] GET /media/imgs/46_rfrpqY0_eUiqPXo.png => generated 0 bytes in 20 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31880|app: 0|req: 3/60] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:39:19 2021] GET /media/imgs/tes-2_11bDaom.jpg => generated 0 bytes in 13 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31879|app: 0|req: 2/61] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:39:19 2021] GET /media/imgs/tes-3_xd2MUUw.jpg => generated 0 bytes in 16 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31881|app: 0|req: 5/62] 192.168.134.1 () {44 vars in 931 bytes} [Sat Oct 30 01:39:19 2021] GET /media/imgs/tes-1_h7ZCNrJ.jpg => generated 0 bytes in 17 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31882|app: 0|req: 15/63] 192.168.134.1 () {50 vars in 1002 bytes} [Sat Oct 30 01:39:38 2021] POST /contactus/ => generated 21 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 31878|app: 0|req: 4/64] 192.168.134.1 () {44 vars in 990 bytes} [Sat Oct 30 01:39:50 2021] GET /admin/companyinfo/ => generated 22246 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31879|app: 0|req: 3/65] 192.168.134.1 () {42 vars in 799 bytes} [Sat Oct 30 01:39:51 2021] GET /jet/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31878|app: 0|req: 5/66] 192.168.134.1 () {44 vars in 996 bytes} [Sat Oct 30 01:39:52 2021] GET /admin/companyinfo/contact/ => generated 23582 bytes in 26 msecs (HTTP/1.1 200) 7 headers in 382 bytes (2 switches on core 0)
+[pid: 31887|app: 0|req: 8/67] 192.168.134.1 () {42 vars in 807 bytes} [Sat Oct 30 01:39:52 2021] GET /jet/jsi18n/ => generated 7684 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31878|app: 0|req: 6/68] 192.168.134.1 () {42 vars in 811 bytes} [Sat Oct 30 01:39:52 2021] GET /admin/jsi18n/ => generated 7684 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 9/69] 192.168.134.1 () {44 vars in 1024 bytes} [Sat Oct 30 01:39:55 2021] GET /admin/companyinfo/contact/22/change/ => generated 23434 bytes in 103 msecs (HTTP/1.1 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 31885|app: 0|req: 10/70] 192.168.134.1 () {42 vars in 817 bytes} [Sat Oct 30 01:39:56 2021] GET /jet/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+[pid: 31882|app: 0|req: 16/71] 192.168.134.1 () {42 vars in 821 bytes} [Sat Oct 30 01:39:56 2021] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 9/72] 192.168.134.1 () {44 vars in 911 bytes} [Sat Oct 30 02:16:00 2021] GET / => generated 30771 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 31887|app: 0|req: 10/73] 192.168.134.1 () {46 vars in 939 bytes} [Sat Oct 30 02:16:00 2021] GET /media/imgs/tes-2_11bDaom.jpg => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31884|app: 0|req: 6/74] 192.168.134.1 () {46 vars in 949 bytes} [Sat Oct 30 02:16:00 2021] GET /media/imgs/46_rfrpqY0_eUiqPXo.png => generated 0 bytes in 3 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31884|app: 0|req: 7/75] 192.168.134.1 () {46 vars in 939 bytes} [Sat Oct 30 02:16:00 2021] GET /media/imgs/tes-1_h7ZCNrJ.jpg => generated 0 bytes in 1 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
+[pid: 31887|app: 0|req: 11/76] 192.168.134.1 () {46 vars in 939 bytes} [Sat Oct 30 02:16:00 2021] GET /media/imgs/tes-3_xd2MUUw.jpg => generated 0 bytes in 2 msecs (HTTP/1.1 304) 2 headers in 77 bytes (0 switches on core 0)
